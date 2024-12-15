@@ -1,0 +1,76 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar container */
+  .navbarContener{
+    height: 100px;
+    background-color: rgb(236,216, 216);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    border-bottom: 1px solid gray;
+    box-shadow: 2px 2px 5px green;
+  }
+  
+  /* Logo section */
+  .navbarContener .logo{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+  
+ .navbarContener  img{
+    width: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px green;   
+}
+  
+  .logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+  }
+  
+  /* Navbar links */
+  .navbarpages ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbarpages li {
+    font-size: 1.2rem;
+  }
+  
+  .navbarpages a {
+  color: green;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  }
+  
+  /* Hover effects */
+  .navbarpages li:first-child a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .navbarpages li:last-child a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+
+  }
+  
