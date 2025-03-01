@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "countryName": "World",
+        "capital": "No Capital",
+        "population": "Null",
+        "interestingFact": "There are 195 countries in the world today, including 193 United Nations member states and 2 observer states."
+    }  ,
+    {
+      "id": 2,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": 125800000,
+      "interestingFact": "Japan has more than 6,800 islands, with Honshu being the largest."
+    },
+    {
+      "id": 3,
+      "countryName": "Canada",
+      "capital": "Ottawa",
+      "population": 38780000,
+      "interestingFact": "Canada has the longest coastline of any country in the world, stretching over 202,080 km."
+    },
+    {
+      "id": 4,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": 26100000,
+      "interestingFact": "Australia is home to the world's largest living structure, the Great Barrier Reef."
+    },
+    {
+      "id": 5,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 216400000,
+      "interestingFact": "Brazil is the only country in South America where Portuguese is the official language."
+    },
+    {
+      "id": 6,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1430000000,
+      "interestingFact": "India has the world's highest number of post offices, with over 150,000 locations."
+    },
+    {
+      "id": 7,
+      "countryName": "Norway",
+      "capital": "Oslo",
+      "population": 5400000,
+      "interestingFact": "Norway is home to the world's longest road tunnel, the Lærdal Tunnel, which is 24.5 km long."
+    },
+    {
+      "id": 8,
+      "countryName": "Egypt",
+      "capital": "Cairo",
+      "population": 113500000,
+      "interestingFact": "Egypt is home to the only remaining Wonder of the Ancient World, the Great Pyramid of Giza."
+    },
+    {
+      "id": 9,
+      "countryName": "China",
+      "capital": "Beijing",
+      "population": 1412000000,
+      "interestingFact": "China has the world's largest high-speed rail network, spanning over 40,000 km."
+    },
+    {
+      "id": 10,
+      "countryName": "South Africa",
+      "capital": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)",
+      "population": 60600000,
+      "interestingFact": "South Africa has three capital cities, each serving a different branch of government."
+    },
+    {
+      "id": 11,
+      "countryName": "Iceland",
+      "capital": "Reykjavík",
+      "population": 376000,
+      "interestingFact": "Iceland runs almost entirely on renewable energy, mainly geothermal and hydroelectric power."
+    },
+    {
+        "id": 12,
+        "countryName": "France",
+        "capital": "Paris",
+        "population": 67407241,
+        "interestingFact": "The Eiffel Tower in Paris was once the tallest man-made structure in the world."
+    }
+  ]
+  

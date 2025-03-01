@@ -1,17 +1,48 @@
-import React from 'react';
-import  { Toaster } from 'react-hot-toast';
-import { RouterProvider} from 'react-router-dom';
-import {myBrowser} from './Router'
+import React from "react";
+import AppLayout from "./components/Layout/AppLayout";
+import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Country from "./pages/Country";
+import ErrorPage from "./pages/ErrorPage";
+import CountryDetails from "./components/Layout/CountryDetails";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    errorElement: <ErrorPage/>,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
 
+      {
+        path: "about",
+        element: <About />,
+      },
+
+      {
+        path: "Contact",
+        element: <Contact />,
+      },
+
+      {
+        path:"country/:id",
+        element: <CountryDetails/>
+      },
+
+      {
+        path: "Country",
+        element: <Country />,
+      },
+    ],
+  },
+]);
 const App = () => {
-  return (
-    <div>
-      <Toaster></Toaster>
+  return <RouterProvider router={router}></RouterProvider>;
+};
 
-        <RouterProvider router={myBrowser}></RouterProvider>
-        
-    </div>
-  )
-}
-
-export default App
+export default App;
