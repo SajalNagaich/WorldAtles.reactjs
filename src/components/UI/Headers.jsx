@@ -30,7 +30,7 @@ const Headers = () => {
                 <NavLink to = "/country">Country</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact">Feedback</NavLink>
               </li>
               <li>
                 <NavLink></NavLink>

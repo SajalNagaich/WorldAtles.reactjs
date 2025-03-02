@@ -8,14 +8,14 @@ const Contact = () => {
     };
   return (
     <section className="section-contact">
-    <h2 className="container-title">Contact Us</h2>
+    <h2 className="container-title">Feedback Form</h2>
 
     <div className="contact-wrapper container">
       <form action={handleFormSubmit}>
         <input
           type="text"
           className="form-control"
-          placeholder="enter your name"
+          placeholder="Enter your name"
           name="username"
           required
           // autoComplete="off"
@@ -24,7 +24,7 @@ const Contact = () => {
         <input
           type="email"
           className="form-control"
-          placeholder="Enter you email"
+          placeholder="Enter your email"
           name="email"
           required
           // autoComplete="off"
@@ -33,7 +33,7 @@ const Contact = () => {
         <textarea
           className="form-control"
           rows="10"
-          placeholder="Enter your message"
+          placeholder="Enter your feedback"
           name="message"
           required
           autoComplete="off"
